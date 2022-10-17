@@ -4,7 +4,6 @@
 html{
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
-
 }
 body{
     margin:0;
@@ -15,7 +14,9 @@ body{
     margin: auto;
     width: 100%;
 }
-section:nth-child(2){
+section:nth-child(2),
+section:nth-child(4)
+{
     background-color:#DCEAF5 ;
 }
 /* Header endees ehelj baina*/
@@ -60,7 +61,37 @@ button a{
     align-items: center;
 }
 .s1div2 {
-    width: 300px;
+    width: 70%;
     display: flex;
     justify-content: space-between;
+}
+.s1div2 div:first-child{
+    background-color:#F58A07 ;
+    border-radius: 27px;
+    color: white;
+    width: 199px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s1p{
+    color: #39414980;
+}
+.s1div3{
+    display: flex;
+    justify-content: space-between;
+}
+/* Section 2 endees ehelj baina  */
+.helppost{
+    display: flex;
+    justify-content: space-between;
+}
+.helppost article{
+    width: 400px;
+    height: 446px;
+}
+.helppost article img{
+    border-radius: 20px;
+   
 }
