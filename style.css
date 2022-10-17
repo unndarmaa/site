@@ -1,0 +1,66 @@
+*{
+ box-sizing:border-box;   
+}
+html{
+font-size: 16px;
+font-family: 'Poppins', sans-serif;
+
+}
+body{
+    margin:0;
+    background-color: white;
+}
+.container{
+    max-width:1280px;
+    margin: auto;
+    width: 100%;
+}
+section:nth-child(2){
+    background-color:#DCEAF5 ;
+}
+/* Header endees ehelj baina*/
+header div{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+header div h2{
+    color: #063255;
+}
+nav{
+    width: 500px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;  
+    color: #394149;
+}
+li{
+    list-style: none; 
+    
+}
+.button{
+    background-color:rgba(245, 138, 7, 0.1);
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    color: #F58A07;
+}
+button a{
+   text-decoration: none;
+}
+
+/* Section1 endees ehelj baina */
+.s1div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1div2 {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
