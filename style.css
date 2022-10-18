@@ -4,6 +4,7 @@
 html{
 font-size: 16px;
 font-family: 'Poppins', sans-serif;
+width: 1920px;
 }
 body{
     margin:0;
@@ -15,21 +16,21 @@ body{
     width: 100%;
 }
 section:nth-child(2),
-section:nth-child(4)
-{
+section:nth-child(4),
+section:nth-child(9){
     background-color:#DCEAF5 ;
 }
-/* Header endees ehelj baina*/
+/* ------------------the style of header start here--------------------------------------------------------*/
 header div{
     display: flex; 
     justify-content: space-between;
     align-items: center;
 }
-header div h2{
+header div h1{
     color: #063255;
 }
 nav{
-    width: 500px;
+    width: 600px;
 }
 nav ul{
     display: flex;
@@ -38,7 +39,6 @@ nav ul{
 }
 li{
     list-style: none; 
-    
 }
 .button{
     background-color:rgba(245, 138, 7, 0.1);
@@ -50,22 +50,27 @@ li{
     height: 50px;
     color: #F58A07;
 }
-button a{
-   text-decoration: none;
+/*------------------------------- The style of section 1 start here-----------------------------------------------*/
+.headersection{
+    height: 703px;
 }
-
-/* Section1 endees ehelj baina */
-.s1div1{
+.text h1{
+    font-size: 60px;
+    color: #1D3444;
+}
+.headerdiv{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-.s1div2 {
+.headerimage{
+    height: 618px;
+}
+.textdiv {
     width: 70%;
     display: flex;
     justify-content: space-between;
 }
-.s1div2 div:first-child{
+.textdiv div:first-child{
     background-color:#F58A07 ;
     border-radius: 27px;
     color: white;
@@ -75,23 +80,310 @@ button a{
     align-items: center;
     justify-content: center;
 }
-.s1p{
+.pdiv{
     color: #39414980;
 }
-.s1div3{
+.section-1logo{
     display: flex;
     justify-content: space-between;
 }
-/* Section 2 endees ehelj baina  */
+/* -----------------------------Section 2 start here  ---------------------------------------------------*/
+.helpsection{
+    height: 833px;
+}
+.helptext{
+    width: 735px;  
+}
+.helptext h2{
+    font-size: 48px;
+    color: #1D3444;
+}
+.helptext p{
+    font-size: 18px;
+    color: #5B5B5B;
+}
 .helppost{
     display: flex;
     justify-content: space-between;
 }
 .helppost article{
     width: 400px;
-    height: 446px;
+    height: 447px;
+}
+.helppost article h3{
+    font-size: 24px;
+    color: #0D1317;
+}
+.helppost article p{
+    color: #1D3444;
 }
 .helppost article img{
     border-radius: 20px;
-   
+    height: 242px;
+}
+.helppost article a{
+    color: #F58A07;
+    text-decoration: none;
+}
+.helppost article a::after{
+    content: \2192;
+}
+/* -----------------------The style of section 3 start here----------------------------------------*/
+.featuressection{
+    height: 665px;
+}
+.topdiv{
+    display: flex;
+    align-items: center;
+
+}
+.topdiv h2{
+    font-size: 36px;
+    color: #0D1317;
+}
+.topdiv p{
+    font-size: 18px;
+    color: #1D3444;
+}
+.bottomdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    width: 401px;
+    height: 277px;
+    background-color: white;
+    padding: 40px;
+}
+.features h3{
+    font-size: 24px;
+    color: #0D1317;
+}
+.features p{
+    color: #5B5B5B;
+}
+/* --------------------Section 4 start here ------------------------- */
+.aboutsection{
+    height: 667px;
+}
+.aboutdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutdiv img{
+    width: 638px;
+    height: 671px;
+    border-radius: 10px;
+}
+.abouttext{
+    width: 596px;
+}
+.abouth{
+    font-size: 48px;
+    color:#0D1317;
+}
+.aboutp{
+    font-size: 18px;
+    color:#5B5B5B;
+}
+.aboutfeature{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutfeature p:first-child{
+    font-size: 36px;
+    color: #F58A07;
+}
+.aboutfeature h3{
+    font-size: 24px;
+    color: #0D1317;
+}
+.aboutfeature div{
+    width: 264px;
+}
+/* --------------------The style of section 5 start here -------------------- */
+.servicesection{
+    height: 698px;
+}
+.servicesection .container{
+    background-color: #DCEAF5;
+    border-radius: 20px;
+    height: 682px;
+}
+.servicetop{
+    display: flex;
+    width: 580px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 60px;   
+                                            /* end amargin!!!!!!
+                                            section-iin hoorondoh zai,
+                                            zured deerh shar ,
+                                            end zureg texttei zeregtsehgui baigaa!!!! */
+}
+.servicetop div{
+    border-radius: 31px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicetop div:nth-child(2){
+   width: 155px;
+   border: solid 1px #A8BCCC;
+   color: #0632554D;
+}
+.servicetop div:nth-child(3){
+    width: 183px;
+    border: solid 1px #A8BCCC ;
+    color: #0632554D;
+}
+.servicetop div:first-child{
+    color: #F58A07;
+    background-color: white;
+    width: 194px;
+}
+.servicebottom{
+    display: flex;
+    justify-content: space-around;
+}
+.servicebottom div:first-child{
+    width: 572px;
+    height: 466px;
+}
+.servicebottom h3{
+    font-size: 48px;
+}
+.servicebottom p{
+    font-size: 18px;
+}
+.servicebottom img{
+    width: 472px;
+    height: 466px;
+}
+.servicebottom a{
+    text-decoration: none;
+    color: #F58A07;
+}
+/* --------------------------The style of section 6 start here--------------------- */
+.stasection{
+    height:518px ;
+}
+.stadiv{
+    display: flex;
+
+}
+.stadiv img{
+    width: 963px;
+    height: 518px;
+}
+.right{
+    width: 960px;
+    height: 518px;
+    background-color: #F58A07;
+    padding: 100px;
+}
+.right h3{
+    font-size: 48px;
+    color: white;
+    width: 532px;
+}
+.right div{
+    background-color: white;
+    width: 216px;
+    height: 54px;
+    color: #F58A07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 31px;
+}
+/* -----------------------------The style of section 7 start here------------ */
+.videosection {
+    height: 501px;
+}
+.videodiv{
+    display: flex;
+    justify-content: space-between;
+}
+.videoleft{
+    width: 550px;
+}
+.videoleft h3{
+    font-size: 48px;
+}
+.videoleft p{
+    font-size: 18px;
+    color: #5B5B5B;
+}
+.videolbottom{
+    display: flex;
+    width: 249px;
+    justify-content: space-between;
+}
+.videolbottom img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.videolbottom p:first-child{
+    font-size:24px ;
+    color: #063255;
+}
+.videolbottom p:nth-child(2){
+    font-size: 18px;
+    color: #F58A07;
+}
+/* ----------------------------The style of section 8 start here  -------------------- */
+.latestsection{
+    height: 819px;
+}
+.latesth{
+    font-size: 48px;
+}
+/* -----------------------------The style of footer start here-------------------- */
+footer{
+    height: 463px;
+    background-color: #063255;
+    color: white;
+}
+.footertop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 199px;
+}
+footer a{
+    display:block;
+    text-decoration: none;
+    color: white;
+}
+.input{
+    width: 342px;
+    height: 54px;
+    background-color: white;
+    color: #9C9C9C;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+}
+.butt{
+    width: 156px;
+    height: 54px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footerbottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footerbottom div{
+    display: flex;
+    width: 298px;
+    justify-content: space-between;
 }
