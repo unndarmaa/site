@@ -1,69 +1,20 @@
-*{
- box-sizing:border-box;   
-}
-html{
-font-size: 16px;
-font-family: 'Poppins', sans-serif;
-width: 1920px;
-}
-body{
-    margin:0;
-    background-color: white;
-}
-.container{
-    max-width:1280px;
-    margin: auto;
-    width: 100%;
-}
+
 section:nth-child(2),
 section:nth-child(4),
 section:nth-child(9){
     background-color:#DCEAF5 ;
 }
-/* ------------------the style of header start here--------------------------------------------------------*/
-header div{
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-}
-header div h1{
-    color: #063255;
-}
-nav{
-    width: 600px;
-}
-nav ul{
-    display: flex;
-    justify-content: space-around;  
-    color: #394149;
-}
-li{
-    list-style: none; 
-}
-.button{
-    background-color:rgba(245, 138, 7, 0.1);
-    border-radius: 31px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 50px;
-    color: #F58A07;
+section{
+    margin: 100px 0 100px 0;
 }
 /*------------------------------- The style of section 1 start here-----------------------------------------------*/
-.headersection{
+.headerSection{
     height: 703px;
+     display: flex;
 }
-.text h1{
+.text h2{
     font-size: 60px;
     color: #1D3444;
-}
-.headerdiv{
-    display: flex;
-    justify-content: center;
-}
-.headerimage{
-    height: 618px;
 }
 .textdiv {
     width: 70%;
@@ -127,6 +78,7 @@ li{
 }
 .helppost article a::after{
     content: \2192;
+    /* -----------------------------------!!!! */
 }
 /* -----------------------The style of section 3 start here----------------------------------------*/
 .featuressection{
@@ -144,6 +96,7 @@ li{
 .topdiv p{
     font-size: 18px;
     color: #1D3444;
+    height: 102px;
 }
 .bottomdiv{
     display: flex;
@@ -212,14 +165,14 @@ li{
 }
 .servicetop{
     display: flex;
-    width: 580px;
+    width: 750px;
     height: 100px;
     justify-content: space-around;
     align-items: center;
-    margin-left: 60px;   
+    
                                             /* end amargin!!!!!!
                                             section-iin hoorondoh zai,
-                                            zured deerh shar ,
+                                            zurag deerh shar ,
                                             end zureg texttei zeregtsehgui baigaa!!!! */
 }
 .servicetop div{
@@ -272,24 +225,26 @@ li{
 }
 .stadiv{
     display: flex;
-
 }
-.stadiv img{
-    width: 963px;
+.staleft{
+   background-image: url(images/experience-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
     height: 518px;
 }
-.right{
-    width: 960px;
+.staright{
     height: 518px;
+    width: 50%;
     background-color: #F58A07;
     padding: 100px;
 }
-.right h3{
+.staright h3{
     font-size: 48px;
     color: white;
     width: 532px;
 }
-.right div{
+.staright div{
     background-color: white;
     width: 216px;
     height: 54px;
@@ -352,12 +307,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 199px;
-}
-footer a{
-    display:block;
-    text-decoration: none;
-    color: white;
+    height: 350px;
 }
 .input{
     width: 342px;
@@ -376,7 +326,9 @@ footer a{
     display: flex;
     justify-content: center;
     align-items: center;
-
+}
+.fins, .connect, .company, .join{
+    line-height: 50px;
 }
 .footerbottom{
     display: flex;
@@ -387,3 +339,5 @@ footer a{
     width: 298px;
     justify-content: space-between;
 }
+
+
