@@ -1,0 +1,58 @@
+h2{
+    font-size: 48px;
+    margin: 0;
+}
+p{
+    font-size: 18px;
+    height: 70px;
+}
+h3{
+    font-size: 24px;
+}
+.contactSection-left h2{
+    width: 560px;
+}
+.contactSection{
+    display: flex;
+    height: 1000px;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactInput div{
+    width:605px;
+    height: 54px;
+    background-color: #D2DAED2B;
+    border-radius: 27px;
+}
+.contactInput div:nth-child(4){
+    height: 160px;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+.contactButton{
+    width: 119px;
+    height: 54px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactButton a{
+    color: white;
+}
+.contactLoc{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+.contactLoc div{
+    width: 270px;
+}
+.contactImg{
+    height: 450px;
+}
+img{
+    border-radius: 20px;
+}

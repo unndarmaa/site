@@ -27,15 +27,25 @@ li{
     justify-content: space-between;
     margin:30px 0 60px 0;
 }
-.headerSection-left-button div{
+.headerSection-left-button .butt{
     background-color:#F58A07 ;
     border-radius: 27px;
-    color: white;
     width: 199px;
     height: 54px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.headerSection a{
+    color: white;
+}
+.noButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noButton a{
+    color: #1D3444;
 }
 .headerSection-text{
     color: #39414980;
@@ -157,22 +167,40 @@ li{
     width: 264px;
     height: 192px;
 }
+.aboutSection-right{
+    background: url(images/about-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 638px;
+    height: 671px;
+    border-radius: 20px;
+}
+.aboutSection-right div{
+    width: 153px;
+    height: 671px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+}
 /* --------------------The style of section 5 start here -------------------- */
 .serviceSection {
     background-color: #DCEAF5;
     border-radius: 20px;
     height: 682px;
-    display: flex;
-    justify-content: space-between;
     padding: 50px;
 }
 .service {
     height: 800px;
+    position: relative;
+}
+.service img{
+    position: absolute;
+    right: 310px;
 }
 .serviceTab{
     display: flex;
     width: 600px;
-    height: 100x;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
 }
@@ -198,8 +226,14 @@ li{
     border: solid 1px #A8BCCC ;
     color: #0632554D;
 }
+.serviceMain{
+    display: flex;
+    justify-content: space-between;
+}
+
 .serviceSection-left h3{
     font-size: 48px;
+    margin: 0;
 }
 .serviceSection-left p{
     font-size: 18px;
@@ -215,13 +249,21 @@ li{
     width: 572px;
     height: 466px; 
 }
-.serviceBottom{
+.serviceSection-right{
+    background-image: url(images/team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 472px;
+    height: 466px;
     display: flex;
     align-items: flex-end;
 }
-.serviceBottom img{
-    width: 472px;
+.serviceSection-right div{
+    width: 120px;
     height: 466px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
 }
 /* --------------------------The style of section 6 start here--------------------- */
 .experSection{
@@ -251,11 +293,13 @@ li{
     background-color: white;
     width: 216px;
     height: 54px;
-    color: #F58A07;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 31px;
+}
+.experSection-right a{
+    color: #F58A07;
 }
 /* -----------------------------The style of section 7 start here------------ */
 

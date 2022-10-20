@@ -65,3 +65,24 @@ footer p{
     width: 298px;
     justify-content: space-between;
 }
+footer{
+    position: relative;
+}
+.shapeLeft{
+    position: absolute;
+    width: 53px;
+    height: 144px;
+    background-color: #F58A07;
+    border-radius: 0 20px 0 0;
+    bottom: 0;
+}
+.shapeRight{
+    position: absolute;
+    width: 53px;
+    height: 287px;
+    background-color: #F58A07;
+    right: 0;
+    border-radius: 20px 0 0 20px;
+    top: 35px;
+
+}

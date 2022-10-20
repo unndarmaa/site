@@ -26,6 +26,7 @@
     width: 180px;
     height: 650px;
     background-color: #F58A07;
+    mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
 .headerSection-button{
