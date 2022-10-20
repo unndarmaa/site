@@ -1,0 +1,64 @@
+
+ article li{
+    color:#5B5B5B;
+}
+/* --------------------Style of header section start here------------- */
+.headerSection{
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerSection-left{
+    width: 618px;
+}
+.headerSection h2{
+    font-size: 64px;
+    margin: 0;
+}
+.headerSection p{
+    width: 510px; 
+    font-size: 18px;
+}
+.headerSection-right{
+    background-image: url(images/services.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 616px;
+    height: 650px;
+}
+.headerSection-right div{
+    width: 180px;
+    height: 650px;
+    background-color: #F58A07;
+    border-radius: 20px 0 0 20px;
+}
+.headerSection-button{
+    width: 171px;
+    height: 54px;
+    color: white;
+    background-color: #F58A07;
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------------style of section 2 start here-----------------------  */
+.featureSection article {
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featureText{
+    width: 584px;
+}
+.featureText h3{
+    font-size: 48px;
+    margin: 0;
+}
+.featureText p{
+    font-size: 18px;
+}
+
+

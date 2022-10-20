@@ -4,24 +4,30 @@ section:nth-child(4),
 section:nth-child(9){
     background-color:#DCEAF5 ;
 }
-section{
-    margin: 100px 0 100px 0;
+li{
+    list-style: none; 
 }
 /*------------------------------- The style of section 1 start here-----------------------------------------------*/
 .headerSection{
     height: 703px;
-     display: flex;
+    display: flex;
 }
-.text h2{
+.headerSection-left h2{
     font-size: 60px;
     color: #1D3444;
+    width: 576px;
+    height: 144px;
 }
-.textdiv {
+.headerSection p{
+    font-size: 18px;
+}
+.headerSection-left-button{
     width: 70%;
     display: flex;
     justify-content: space-between;
+    margin:30px 0 60px 0;
 }
-.textdiv div:first-child{
+.headerSection-left-button div{
     background-color:#F58A07 ;
     border-radius: 27px;
     color: white;
@@ -31,74 +37,76 @@ section{
     align-items: center;
     justify-content: center;
 }
-.pdiv{
+.headerSection-text{
     color: #39414980;
+    font-size: 18px;
 }
-.section-1logo{
+.headerSection-logo{
     display: flex;
     justify-content: space-between;
+}
+.headerSection-right{
+    display: flex;
+    justify-content: end;
 }
 /* -----------------------------Section 2 start here  ---------------------------------------------------*/
-.helpsection{
-    height: 833px;
+.helpSection{
+    height: 840px;
 }
-.helptext{
+.helpSection-tittle{
     width: 735px;  
 }
-.helptext h2{
+.helpSection-tittle h2{
     font-size: 48px;
-    color: #1D3444;
 }
-.helptext p{
+.helpSection-tittle p{
     font-size: 18px;
-    color: #5B5B5B;
 }
-.helppost{
+.helpSection-post{
     display: flex;
     justify-content: space-between;
+    margin-top:50px ;
 }
-.helppost article{
+.helpSection-post article{
     width: 400px;
     height: 447px;
 }
-.helppost article h3{
+.helpSection-post  h3{
     font-size: 24px;
-    color: #0D1317;
 }
-.helppost article p{
-    color: #1D3444;
-}
-.helppost article img{
+.helpSection-post  img{
     border-radius: 20px;
     height: 242px;
 }
-.helppost article a{
+.helpArrow{
     color: #F58A07;
-    text-decoration: none;
 }
-.helppost article a::after{
-    content: \2192;
-    /* -----------------------------------!!!! */
+.helpArrow::after{
+    content: "\2192";
+    font-size: x-large;
 }
 /* -----------------------The style of section 3 start here----------------------------------------*/
-.featuressection{
+.featuresSection{
     height: 665px;
 }
-.topdiv{
+.featuresSection-top{
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
+    height:300px;
 }
-.topdiv h2{
+.featuresSection-top h3{
     font-size: 36px;
-    color: #0D1317;
+    width: 625px;
+    height: 132px;
 }
-.topdiv p{
+.featuresSection-top p{
     font-size: 18px;
-    color: #1D3444;
+    width: 620px;
     height: 102px;
+    color: #1D3444;
 }
-.bottomdiv{
+.featuresSection-bottom{
     display: flex;
     justify-content: space-between;
 }
@@ -107,144 +115,139 @@ section{
     height: 277px;
     background-color: white;
     padding: 40px;
+    border-radius: 20px;
 }
 .features h3{
     font-size: 24px;
-    color: #0D1317;
-}
-.features p{
-    color: #5B5B5B;
 }
 /* --------------------Section 4 start here ------------------------- */
-.aboutsection{
-    height: 667px;
-}
-.aboutdiv{
+.aboutSection{
+    height: 850px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.aboutdiv img{
-    width: 638px;
-    height: 671px;
+.aboutSection img{
+    width: 637px;
+    height: 667px;
     border-radius: 10px;
 }
-.abouttext{
+.aboutSection-left{
     width: 596px;
+    height: 667px;
 }
-.abouth{
+.aboutTittle{
     font-size: 48px;
-    color:#0D1317;
 }
-.aboutp{
+.about-p{
     font-size: 18px;
-    color:#5B5B5B;
 }
-.aboutfeature{
+.aboutFeature{
     display: flex;
     justify-content: space-between;
 }
-.aboutfeature p:first-child{
+.aboutFeature p:first-child{
     font-size: 36px;
     color: #F58A07;
 }
-.aboutfeature h3{
+.aboutFeature h3{
     font-size: 24px;
-    color: #0D1317;
 }
-.aboutfeature div{
+.aboutFeature div{
     width: 264px;
+    height: 192px;
 }
 /* --------------------The style of section 5 start here -------------------- */
-.servicesection{
-    height: 698px;
-}
-.servicesection .container{
+.serviceSection {
     background-color: #DCEAF5;
     border-radius: 20px;
     height: 682px;
-}
-.servicetop{
     display: flex;
-    width: 750px;
-    height: 100px;
-    justify-content: space-around;
-    align-items: center;
-    
-                                            /* end amargin!!!!!!
-                                            section-iin hoorondoh zai,
-                                            zurag deerh shar ,
-                                            end zureg texttei zeregtsehgui baigaa!!!! */
+    justify-content: space-between;
+    padding: 50px;
 }
-.servicetop div{
+.service {
+    height: 800px;
+}
+.serviceTab{
+    display: flex;
+    width: 600px;
+    height: 100x;
+    justify-content: space-between;
+    align-items: center;
+}
+.serviceTab div{
     border-radius: 31px;
     height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.servicetop div:nth-child(2){
-   width: 155px;
-   border: solid 1px #A8BCCC;
-   color: #0632554D;
-}
-.servicetop div:nth-child(3){
-    width: 183px;
-    border: solid 1px #A8BCCC ;
-    color: #0632554D;
-}
-.servicetop div:first-child{
+.serviceTab div:first-child{
     color: #F58A07;
     background-color: white;
     width: 194px;
 }
-.servicebottom{
-    display: flex;
-    justify-content: space-around;
+.serviceTab div:nth-child(2){
+   width: 155px;
+   border: solid 1px #A8BCCC;
+   color: #0632554D;
 }
-.servicebottom div:first-child{
-    width: 572px;
-    height: 466px;
+.serviceTab div:nth-child(3){
+    width: 183px;
+    border: solid 1px #A8BCCC ;
+    color: #0632554D;
 }
-.servicebottom h3{
+.serviceSection-left h3{
     font-size: 48px;
 }
-.servicebottom p{
+.serviceSection-left p{
     font-size: 18px;
 }
-.servicebottom img{
+.serviceSection-left a{
+    color: #F58A07;
+}
+.serviceSection-left a::after{
+    content: "\2192";
+    font-size: x-large;
+}
+.serviceSection-left{
+    width: 572px;
+    height: 466px; 
+}
+.serviceBottom{
+    display: flex;
+    align-items: flex-end;
+}
+.serviceBottom img{
     width: 472px;
     height: 466px;
 }
-.servicebottom a{
-    text-decoration: none;
-    color: #F58A07;
-}
 /* --------------------------The style of section 6 start here--------------------- */
-.stasection{
+.experSection{
     height:518px ;
-}
-.stadiv{
     display: flex;
 }
-.staleft{
+.experSection-left{
    background-image: url(images/experience-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
     height: 518px;
 }
-.staright{
+.experSection-right{
     height: 518px;
     width: 50%;
     background-color: #F58A07;
-    padding: 100px;
+    padding: 50px 150px;
 }
-.staright h3{
+.experSection-right h3{
     font-size: 48px;
     color: white;
     width: 532px;
+    height: 200px;
 }
-.staright div{
+.experSection-right div{
     background-color: white;
     width: 216px;
     height: 54px;
@@ -255,89 +258,9 @@ section{
     border-radius: 31px;
 }
 /* -----------------------------The style of section 7 start here------------ */
-.videosection {
-    height: 501px;
-}
-.videodiv{
-    display: flex;
-    justify-content: space-between;
-}
-.videoleft{
-    width: 550px;
-}
-.videoleft h3{
-    font-size: 48px;
-}
-.videoleft p{
-    font-size: 18px;
-    color: #5B5B5B;
-}
-.videolbottom{
-    display: flex;
-    width: 249px;
-    justify-content: space-between;
-}
-.videolbottom img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-.videolbottom p:first-child{
-    font-size:24px ;
-    color: #063255;
-}
-.videolbottom p:nth-child(2){
-    font-size: 18px;
-    color: #F58A07;
-}
+
 /* ----------------------------The style of section 8 start here  -------------------- */
-.latestsection{
-    height: 819px;
-}
-.latesth{
-    font-size: 48px;
-}
+
 /* -----------------------------The style of footer start here-------------------- */
-footer{
-    height: 463px;
-    background-color: #063255;
-    color: white;
-}
-.footertop{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 350px;
-}
-.input{
-    width: 342px;
-    height: 54px;
-    background-color: white;
-    color: #9C9C9C;
-    border-radius: 31px;
-    display: flex;
-    align-items: center;
-}
-.butt{
-    width: 156px;
-    height: 54px;
-    background-color: #F58A07;
-    border-radius: 31px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.fins, .connect, .company, .join{
-    line-height: 50px;
-}
-.footerbottom{
-    display: flex;
-    justify-content: space-between;
-}
-.footerbottom div{
-    display: flex;
-    width: 298px;
-    justify-content: space-between;
-}
 
 

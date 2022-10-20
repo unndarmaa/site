@@ -1,0 +1,37 @@
+.videoSection {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.videoSection-left{
+    width: 570px;
+}
+.videoSection-left h3{
+    font-size: 48px;
+}
+.videoSection-left p{
+    font-size: 18px;
+}
+.videoPerson{
+    display: flex;
+    width: 249px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.videoPerson h3{
+    font-size:24px ;
+    color: #063255;
+}
+.videoPerson p{
+    font-size: 18px;
+    color: #F58A07;
+}
+.videoSection-right{
+    background-image: url(images/video-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 620px;
+    height: 501px;
+}

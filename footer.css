@@ -1,0 +1,67 @@
+footer{
+    height: 463px;
+    background-color: #063255;
+    color: white;
+}
+.footerTop{
+    display: flex;
+    align-items: center;
+    height: 350px;
+    justify-content: space-between;
+}
+footer ol{
+    padding: 0;
+}
+footer li{
+    list-style: none;
+}
+footer li:first-child{
+    font-size: 18px;
+}
+.fins{
+    font-weight: bold;
+}
+.fins li:nth-child(2){
+    font-size: 36px;
+    width: 351px;   
+}
+.input{
+    width: 342px;
+    height: 54px;
+    background-color: white;
+    color: #9C9C9C;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin: 20px 0;
+    /* ------------------------------------------------------!!!!! */
+}
+.butt{
+    width: 156px;
+    height: 54px;
+    background-color: #F58A07;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fins, .connect, .company, .join{
+    line-height: 50px;
+    height: 195px;
+}
+.join p{
+    font-size: 18px;
+}
+footer p{
+    color: white;
+}
+.footerBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footerBottom div{
+    display: flex;
+    width: 298px;
+    justify-content: space-between;
+}
