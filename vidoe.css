@@ -36,4 +36,24 @@
     background-size: cover;
     width: 620px;
     height: 501px;
+    display: flex;
+    align-items: flex-end;
+}
+.videoCircle{
+    display: flex;
+    width: 200px;
+    height: 80px;
+    justify-content: space-around;
+}
+.circle{
+    width: 51px;
+    height: 51px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoCircle p{
+    color: white;
 }

@@ -40,5 +40,5 @@
 }
 .latestArrow::after{
     content: "\2192";
-    font-size: x-large;
+    font-size: large;
 }

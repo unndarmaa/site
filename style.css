@@ -8,92 +8,103 @@ li{
     list-style: none; 
 }
 /*------------------------------- The style of section 1 start here-----------------------------------------------*/
-.headerSection{
-    height: 703px;
-    display: flex;
-}
-.headerSection-left h2{
-    font-size: 60px;
-    color: #1D3444;
-    width: 576px;
-    height: 144px;
-}
-.headerSection p{
-    font-size: 18px;
-}
-.headerSection-left-button{
-    width: 70%;
+.firstSection{
     display: flex;
     justify-content: space-between;
-    margin:30px 0 60px 0;
 }
-.headerSection-left-button .butt{
+.firstSection .left h2{
+    font-size: 64px;
+    color: #1D3444;
+    line-height: 72px;
+}
+.firstSection .left{
+    width: 50%;
+}
+.firstSection p{
+    font-size: 18px;
+    width: 80%;
+}
+.firstSection .button{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstSection .leftButton{
     background-color:#F58A07 ;
     border-radius: 27px;
-    width: 199px;
+    width: 40%;
     height: 54px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.headerSection a{
+.firstSection a{
     color: white;
 }
-.noButton{
+.firstSection .rightButton{
+    width: 40%;
+    height: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.noButton a{
+.firstSection .rightButton a{
     color: #1D3444;
 }
-.headerSection-text{
+.firstSection text{
     color: #39414980;
     font-size: 18px;
 }
-.headerSection-logo{
+.firstSection .logo{
     display: flex;
     justify-content: space-between;
 }
-.headerSection-right{
-    display: flex;
-    justify-content: end;
+.firstSection .right{
+    width: 50%;
+    height: 645px;
 }
 /* -----------------------------Section 2 start here  ---------------------------------------------------*/
 .helpSection{
     height: 840px;
 }
-.helpSection-tittle{
-    width: 735px;  
+.helpSection .tittle{
+    width: 60%;  
 }
-.helpSection-tittle h2{
+.helpSection .tittle h2{
     font-size: 48px;
 }
-.helpSection-tittle p{
+.helpSection .tittle p{
     font-size: 18px;
 }
-.helpSection-post{
+ .helpSection .post{
     display: flex;
     justify-content: space-between;
     margin-top:50px ;
 }
-.helpSection-post article{
-    width: 400px;
+.helpSection  article{
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    padding: 5px;
     height: 447px;
 }
-.helpSection-post  h3{
+.helpSection .post  h3{
     font-size: 24px;
 }
-.helpSection-post  img{
+.helpSection   img{
     border-radius: 20px;
     height: 242px;
+    width: 100%;
 }
-.helpArrow{
+.helpSection .arrow{
     color: #F58A07;
 }
-.helpArrow::after{
+.helpSection .arrow::after{
     content: "\2192";
-    font-size: x-large;
+    font-size: large;
+    margin: 20px 0 0 10px;
 }
 /* -----------------------The style of section 3 start here----------------------------------------*/
 .featuresSection{
@@ -188,14 +199,15 @@ li{
     border-radius: 20px;
     height: 682px;
     padding: 50px;
+    position: relative;
 }
 .service {
     height: 800px;
-    position: relative;
 }
-.service img{
+.ribbon{
     position: absolute;
-    right: 310px;
+    right: -15px;
+    top: -15px;
 }
 .serviceTab{
     display: flex;
@@ -243,7 +255,7 @@ li{
 }
 .serviceSection-left a::after{
     content: "\2192";
-    font-size: x-large;
+    font-size: large;
 }
 .serviceSection-left{
     width: 572px;
@@ -255,8 +267,6 @@ li{
     background-size: cover;
     width: 472px;
     height: 466px;
-    display: flex;
-    align-items: flex-end;
 }
 .serviceSection-right div{
     width: 120px;
@@ -301,10 +311,6 @@ li{
 .experSection-right a{
     color: #F58A07;
 }
-/* -----------------------------The style of section 7 start here------------ */
 
-/* ----------------------------The style of section 8 start here  -------------------- */
-
-/* -----------------------------The style of footer start here-------------------- */
 
 
