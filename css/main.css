@@ -7,26 +7,28 @@ section:nth-child(9){
 li{
     list-style: none; 
 }
-/*------------------------------- The style of section 1 start here-----------------------------------------------*/
+/*------------------------------- The style of first section  start here-----------------------------------------------*/
 .firstSection{
     display: flex;
     justify-content: space-between;
+    height: 703px;
 }
 .firstSection .left h2{
-    font-size: 64px;
+    font-size: 4rem;
     color: #1D3444;
     line-height: 72px;
+    margin-bottom: 0;
 }
 .firstSection .left{
     width: 50%;
 }
 .firstSection p{
     font-size: 18px;
-    width: 80%;
+    width: 80%; 
 }
 .firstSection .button{
-    width: 70%;
-    height: 100px;
+    width: 60%;
+    height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,21 +36,16 @@ li{
 .firstSection .leftButton{
     background-color:#F58A07 ;
     border-radius: 27px;
-    width: 40%;
+    width: 50%;
     height: 54px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 15px 0 0 30px;
 }
 .firstSection a{
     color: white;
 }
 .firstSection .rightButton{
-    width: 40%;
     height: 54px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px 0 0 20px;
 }
 .firstSection .rightButton a{
     color: #1D3444;
@@ -63,17 +60,20 @@ li{
 }
 .firstSection .right{
     width: 50%;
-    height: 645px;
 }
-/* -----------------------------Section 2 start here  ---------------------------------------------------*/
+.firstSection .right img{
+    height: 703px;
+}
+/* -----------------------------Style of help section  start here  ---------------------------------------------------*/
 .helpSection{
     height: 840px;
 }
 .helpSection .tittle{
-    width: 60%;  
+    width: 60%;
+    height: 300px;
 }
 .helpSection .tittle h2{
-    font-size: 48px;
+    font-size:3rem;
 }
 .helpSection .tittle p{
     font-size: 18px;
@@ -81,17 +81,13 @@ li{
  .helpSection .post{
     display: flex;
     justify-content: space-between;
-    margin-top:50px ;
 }
 .helpSection  article{
-    max-width: 400px;
-    min-width: 300px;
-    width: 100%;
-    padding: 5px;
+    width: 32%;
     height: 447px;
 }
 .helpSection .post  h3{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .helpSection   img{
     border-radius: 20px;
@@ -103,62 +99,57 @@ li{
 }
 .helpSection .arrow::after{
     content: "\2192";
-    font-size: large;
+    font-size: x-large;
     margin: 20px 0 0 10px;
 }
-/* -----------------------The style of section 3 start here----------------------------------------*/
+/* ---------------------------------Style of features section  start here----------------------------------------*/
 .featuresSection{
     height: 665px;
 }
-.featuresSection-top{
+.featuresSection .top{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height:300px;
 }
-.featuresSection-top h3{
-    font-size: 36px;
-    width: 625px;
+.featuresSection .top h3{
+    font-size: 2.25rem;
+    width: 50%;
     height: 132px;
 }
-.featuresSection-top p{
+.featuresSection .top p{
     font-size: 18px;
-    width: 620px;
+    width: 45%;
     height: 102px;
     color: #1D3444;
 }
-.featuresSection-bottom{
+.featuresSection .bottom{
     display: flex;
     justify-content: space-between;
 }
 .features{
-    width: 401px;
+    width: 32%;
     height: 277px;
     background-color: white;
     padding: 40px;
     border-radius: 20px;
 }
 .features h3{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
-/* --------------------Section 4 start here ------------------------- */
+/* ------------------------------------Style of about section start here ------------------------- */
 .aboutSection{
     height: 850px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.aboutSection img{
-    width: 637px;
-    height: 667px;
-    border-radius: 10px;
-}
-.aboutSection-left{
-    width: 596px;
+.aboutSection .left{
+    width: 50%;
     height: 667px;
 }
 .aboutTittle{
-    font-size: 48px;
+    font-size: 3rem;
 }
 .about-p{
     font-size: 18px;
@@ -168,37 +159,37 @@ li{
     justify-content: space-between;
 }
 .aboutFeature p:first-child{
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #F58A07;
 }
 .aboutFeature h3{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .aboutFeature div{
-    width: 264px;
+    width: 45%;
     height: 192px;
 }
-.aboutSection-right{
-    background: url(images/about-image.png);
+.aboutSection .right{
+    background: url(/images/about-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 638px;
+    width: 50%;
     height: 671px;
     border-radius: 20px;
 }
-.aboutSection-right div{
-    width: 153px;
+.aboutSection .right div{
+    width: 25%;
     height: 671px;
     background: #F58A07;
     mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
-/* --------------------The style of section 5 start here -------------------- */
+/* --------------------------------------Style of service section start here -------------------- */
 .serviceSection {
     background-color: #DCEAF5;
     border-radius: 20px;
     height: 682px;
-    padding: 50px;
+    padding: 40px;
     position: relative;
 }
 .service {
@@ -211,7 +202,7 @@ li{
 }
 .serviceTab{
     display: flex;
-    width: 600px;
+    width: 50%;
     height: 100px;
     justify-content: space-between;
     align-items: center;
@@ -226,15 +217,15 @@ li{
 .serviceTab div:first-child{
     color: #F58A07;
     background-color: white;
-    width: 194px;
+    width: 35%;
 }
 .serviceTab div:nth-child(2){
-   width: 155px;
+   width: 25%;
    border: solid 1px #A8BCCC;
    color: #0632554D;
 }
 .serviceTab div:nth-child(3){
-    width: 183px;
+    width: 30%;
     border: solid 1px #A8BCCC ;
     color: #0632554D;
 }
@@ -242,73 +233,68 @@ li{
     display: flex;
     justify-content: space-between;
 }
-
-.serviceSection-left h3{
-    font-size: 48px;
+.serviceSection .left h3{
+    font-size: 3rem;
     margin: 0;
 }
-.serviceSection-left p{
+.serviceSection .left p{
     font-size: 18px;
 }
-.serviceSection-left a{
+.serviceSection .left a{
     color: #F58A07;
 }
-.serviceSection-left a::after{
+.serviceSection .left a::after{
     content: "\2192";
-    font-size: large;
+    font-size: x-large;
+    margin: 20px 0 0 10px;
 }
-.serviceSection-left{
-    width: 572px;
+.serviceSection .left{
+    width: 50%;
     height: 466px; 
 }
-.serviceSection-right{
-    background-image: url(images/team.png);
+.serviceSection .right{
+    background-image: url(/images/team.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 472px;
+    width: 45%;
     height: 466px;
 }
-.serviceSection-right div{
-    width: 120px;
+.serviceSection .right div{
+    width: 25%;
     height: 466px;
     background: #F58A07;
     mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
-/* --------------------------The style of section 6 start here--------------------- */
+/* -----------------------------------------Style of  exper section  start here--------------------- */
 .experSection{
     height:518px ;
     display: flex;
 }
-.experSection-left{
-   background-image: url(images/experience-image.png);
+.experSection .left{
+    background-image: url(/images/experience-image.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    height: 518px;
 }
-.experSection-right{
-    height: 518px;
+.experSection .right{
     width: 50%;
     background-color: #F58A07;
-    padding: 50px 150px;
+    padding: 50px 130px;
 }
-.experSection-right h3{
-    font-size: 48px;
+.experSection .right h3{
+    font-size: 3rem;
     color: white;
-    width: 532px;
-    height: 200px;
+    width: 70%;
 }
-.experSection-right div{
+.experSection .right div{
     background-color: white;
-    width: 216px;
+    width: 25%;
     height: 54px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px 0 0 30px;
     border-radius: 31px;
 }
-.experSection-right a{
+.experSection .right a{
     color: #F58A07;
 }
 

@@ -1,6 +1,5 @@
-/* ----------------------------style of section 1 start here ------------------------- */
+/* ----------------------------style of career section start here ------------------------- */
 .firstSection{
-    height: 749px;
     background-color: #DCEAF5;
 }
 .blogSection{
@@ -11,7 +10,7 @@
 }
 .blogMember{
     display: flex;
-    width:420px ;
+    width:80%;
     justify-content: space-between;
     height: 32px;
     align-items: center;
@@ -22,61 +21,62 @@
 }
 .blogMember div{
     display: flex;
-    width: 170px;
+    width: 38%;
     justify-content: space-between;
     align-items: center;
 }
-.blogSection-left h2{
-    font-size: 64px;
+.blogSection .left h2{
+    font-size: 4rem;
     margin: 0;
 }
-.blogSection-left{
-    width: 559px;
+.blogSection .left{
+    width: 45%;
 }
-.blogSection-left a{
+.blogSection .left a{
     color: #F58A07;
 }
-.blogSection-left a::after{
+.blogSection .left a::after{
     content:"\2192";
     font-size: x-large;
+    margin: 20px 0 0 10px;
 }
-.blogSection-right img{
+.blogSection .right img{
     border-radius: 20px;
 }
-/* --------------------------style of section 2 start here--------------------------------  */
+/* --------------------------style of latest section start here--------------------------------  */
 .latestSection{
     height: 1400px;
 }
 .latestTittle{
-    font-size: 48px;
+    font-size: 3rem;
     height: 150px;
     display: flex;
     align-items: end;
 }
-.latestSection-post{
+.latestSection .post{
     display: flex;
     justify-content: space-between;
     margin-top:50px ;
     flex-wrap: wrap;
 }
-.latestSection-post article{
-    width: 400px;
+.latestSection .post article{
+    width: 32%;
     height: 507px;
     background-color:#EDF7FF;
     border-radius:20px;
     margin-bottom: 50px;
 }
-.latestSection-post  h3{
-    font-size: 24px;
+.latestSection .post  h3{
+    font-size: 1.5rem;
     color: #0D1317;
 }
-.latestSection-post  img{
+.latestSection .post  img{
     border-radius:20px 20px 0 0;
     height: 230px;
-    width: 400px;
+    width: 100%;
 }
-.latestPost-content{
-    width: 400px;
+.latestSection .content{
+    width: 100%;
     height: 260px;
     padding: 0 20px;
 }
@@ -86,4 +86,5 @@
 .latestArrow::after{
     content: "\2192";
     font-size: x-large;
+    margin: 20px 0 0 10px;
 }

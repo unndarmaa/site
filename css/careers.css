@@ -1,72 +1,75 @@
-.headerSection{
+.firstSection{
     height: 750px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.headerSection-left{
-    width: 618px;
+.firstSection .left{
+    width: 46%;
 }
-.headerSection h2{
-    font-size: 64px;
+.firstSection h2{
+    font-size: 4rem;
     margin: 0;
 }
-.headerSection p{
-    width: 510px; 
+.firstSection p{
+    width: 90%; 
     font-size: 18px;
 }
-.headerSection-right{
-    background-image: url(images/careers.png);
+.firstSection .right{
+    background-image: url(/images/careers.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 616px;
+    width: 50%;
     height: 650px;
+    border-radius: 20px;
 }
-.headerSection-right div{
-    width: 180px;
+.firstSection .right div{
+    width: 28%;
     height: 650px;
     background-color: #F58A07;
     mix-blend-mode: multiply;
     border-radius: 20px 0 0 20px;
 }
-.headerSection-button{
-    width: 171px;
+.firstSection .button{
+    width: 25%;
     height: 54px;
     color: white;
     background-color: #F58A07;
     border-radius: 27px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px 0 0 20px;
 }
 /* ---------------------------------style of section 2 start here---------- */
-.carreerSection {
+.careerSection {
     height: 600px;
 }
-.carreerSection h3{
-    font-size: 48px;
+.careerSection h3{
+    font-size: 3rem;
 }
-.carreers{
+.careers{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
-.carreers div{
-    width: 400px;
+.careers div{
+    width: 32%;
     height: 181px;
     background-color: #C1E4FF4D;
     line-height: 30px;
-    margin: 20px 20px 0 0;
+    margin: 20px 0 0 0;
     border-radius: 20px;
     padding: 30px
 }
-.carreers h3{
-    font-size: 24px;
+.careers div:nth-child(6){
+    background-color: white;
+}
+.careers h3{
+    font-size: 1.5rem;
     margin: 0;
 }
-.carreers p{
+.careers p{
     font-size: 18px;
 }
-.carreers a{
+.careers a{
     color: #F58A07;
     font-size: 18px;
 }

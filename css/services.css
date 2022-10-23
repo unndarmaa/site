@@ -1,0 +1,134 @@
+
+ article li{
+    color:#5B5B5B;
+}
+a{
+    color: white;
+}
+/* --------------------Style of firdt section start here------------- */
+.firstSection{
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstSection .left{
+    width: 50%;
+}
+.firstSection h2{
+    font-size: 4rem;
+    margin: 0;
+}
+.firstSection p{
+    width: 90%; 
+    font-size: 18px;
+}
+.firstSection .right{
+    background-image: url(/images/services.1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 650px;
+    border-radius: 20px;
+}
+.firstSection .right div{
+    width: 28%;
+    height: 650px;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px 0 0 20px;
+}
+.firstSection .button{
+    width: 25%;
+    height: 54px;
+    color: white;
+    background-color: #F58A07;
+    border-radius: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -------------------------style of section 2 start here-----------------------  */
+.featureSection article {
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.pic-1{
+    background-image: url(/images/services.article1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:600px;
+    border-radius: 20px;
+}
+.pic-2{
+    background-image: url(/images/services.article2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:600px;
+    border-radius: 20px;
+}
+.pic-3{
+    background-image: url(/images/services.article3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:600px;
+    border-radius: 20px;
+}
+.pic-4{
+    background-image: url(/images/services.article4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:600px;
+    border-radius: 20px;
+}
+.pic-5{
+    background-image: url(/images/services.article5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height:600px;
+    border-radius: 20px;
+}
+.featureText{
+    width: 45%;
+}
+.featureText h3{
+    font-size: 3rem;
+    margin: 0;
+}
+.featureText p{
+    font-size: 18px;
+}
+.shape{
+    position: absolute;
+    width: 95px;
+    height: 97px;
+    background-color: #F58A07;
+    mix-blend-mode: multiply;
+    border-radius: 20px;
+}
+.shape-1{
+    left:-50px;
+    top: 200px;
+}
+.shape-2{
+    right: -50px;
+    bottom: 250px;
+}
+.shape-3{
+    left:-50px;
+}
+.shape-4{
+    right:-50px;
+}
+.shape-5{
+    left: -50px;
+    bottom: 150px;
+}

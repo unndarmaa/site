@@ -1,24 +1,58 @@
-h2{
-    font-size: 48px;
-    margin: 0;
+.contactSection h2{
+    font-size:3rem;
 }
-p{
+.contactSection p{
     font-size: 18px;
     height: 70px;
 }
-h3{
+.contactSection h3{
     font-size: 24px;
 }
-.contactSection-left h2{
+.contactSection .left h2{
     width: 560px;
 }
-.contactSection{
+.contactSection .top{
     display: flex;
-    height: 1000px;
     align-items: center;
     justify-content: space-between;
+    height: 350px;
 }
-.contactInput div{
+.contactSection{
+    height: 900px;
+}
+.contactSection .title{
+   width: 45%;
+}
+.location{
+    width: 22%;
+}
+.contact{
+    width:20%
+}
+.contactSection .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.leftInput{
+    display: flex;
+    flex-wrap: wrap;
+}
+.input{
+    width: 95%;
+    height: 54px;
+    background-color: #D2DAED2B;
+    border-radius: 27px;
+    color: #9C9C9C;
+    padding: 15px 0 0 30px;
+}
+.input:nth-child(4){
+    height: 160px;
+}
+/* .contactSection .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.left .input div{
     width:605px;
     height: 54px;
     background-color: #D2DAED2B;
@@ -29,7 +63,7 @@ h3{
     display: flex;
     align-items: flex-start;
     padding: 20px;
-}
+}*/
 .contactButton{
     width: 119px;
     height: 54px;
@@ -55,4 +89,4 @@ h3{
 }
 img{
     border-radius: 20px;
-}
+} 

@@ -4,56 +4,59 @@
     justify-content: space-between;
     align-items: center;
 }
-.videoSection-left{
-    width: 570px;
+.videoSection .left{
+    width: 45%;
 }
-.videoSection-left h3{
-    font-size: 48px;
+.videoSection .left h3{
+    font-size: 3rem;
 }
-.videoSection-left p{
+.videoP{
     font-size: 18px;
 }
 .videoPerson{
     display: flex;
-    width: 249px;
+    width: 45%;
     height: 80px;
     justify-content: space-between;
     align-items: center;
 }
-.videoPerson h3{
-    font-size:24px ;
+.videoPerson .name{
+    font-size:1.5rem;
+    font-weight: 500;
     color: #063255;
     margin: 0;
 }
-.videoPerson p{
+.videoPerson .pos{
     font-size: 18px;
+    font-weight: 500;
     color: #F58A07;
     margin: 0;
 }
-.videoSection-right{
-    background-image: url(images/video-image.png);
+.videoSection .right{
+    background-image: url(/images/video-image.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 620px;
+    width: 50%;
     height: 501px;
     display: flex;
     align-items: flex-end;
+    border-radius: 20px;
 }
 .videoCircle{
+    width: 30%;
+    height: 50px;
     display: flex;
-    width: 200px;
-    height: 80px;
     justify-content: space-around;
+    align-items: center;
+    margin: 30px;
 }
 .circle{
     width: 51px;
     height: 51px;
     background-color: white;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px 0 0 20px;
 }
-.videoCircle p{
+.videoCircle a{
     color: white;
 }

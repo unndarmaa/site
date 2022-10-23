@@ -1,15 +1,17 @@
-img{
+.blogInner img{
     border-radius: 20px;
+    width: 100%;
 }
 .blogPost{
-    width: 780px;
+    width: 60%;
     margin: auto;
     margin-top: 50px;
-    height: 1400px;
+    min-height: 1400px;
+    max-height: 2000px;
 }
 .blogMember{
     display: flex;
-    width:420px ;
+    width:60% ;
     justify-content: space-between;
     height: 32px;
     align-items: center;
@@ -20,15 +22,15 @@ img{
 }
 .blogMember div{
     display: flex;
-    width: 170px;
+    width: 38%;
     justify-content: space-between;
     align-items: center;
 }
 h2{
-    font-size: 64px;
+    font-size: 4rem;
     margin: 0;
 }
 h3{
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0;
 }

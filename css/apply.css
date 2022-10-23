@@ -1,27 +1,27 @@
 h2{
-    font-size: 64px;
+    font-size:4rem ;
 }
 h3{
-   font-size: 24px; 
+   font-size: 1.5rem; 
 }
 .job{
     height: 800px;
 }
-.job-top{
+.job .top{
     display: flex;
     justify-content: space-between;
     height: 200px;
 }
-.job-top p{
+.job .top p{
     font-size: 18px;
 }
 .jobDisc{
-    width: 640px;
+    width: 50%;
 }
 .salary{
-    width: 300px;
+    width: 30%;
 }
-.job-bottom{
+.job .bottom{
     display: flex;
     background-color: #C1E4FF4D;
     height: 441px;
@@ -29,58 +29,60 @@ h3{
     padding: 60px;
     justify-content: space-between;
 }
-.job-bottom li{
+.job .bottom li{
     list-style: none;
     color: #5B5B5B;
 }
-.job-bottom p:first-child{
+.job .bottom p:first-child{
     color: #F58A07;
 }
-.job-bottom p{
-    font-size: 24px;
+.job .bottom p{
+    font-size: 1.5rem;
     color:#0D1317;
+    font-weight: 500;
 }
-.job-bottom-right{
-    width: 880px;
+.job .bottom .right{
+    width: 80%;
 }
-.job-bottom-left{
-    width: 182px;
+.job .bottom .left{
+    width: 20%;
+    font-weight: 600;
 }
 /* --------------------------------------------------style of section 2 start here------------------ */
 .applySection{ 
     height: 740px;
 }
 .applySection h3{
-    font-size: 48px;
+    font-size: 3rem;
 }
 .applyInput {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.applyInput div{
-    width: 628px;
+.input{
+    width: 49%;
     height: 54px;
     background-color: #D2DAED2B;
     border-radius: 27px;
+    color: #9C9C9C;
+    padding: 15px 0 0 30px;
+    margin-bottom: 20px;
 }
-.applyInput-bott div{
-    width: 1280px;
+.input:nth-child(5){
+    width: 100%;
     height: 215px;
     background-color: #D2DAED2B;
     border-radius:27px ;
-    display: flex;
-   align-items: flex-start;
-   padding: 20px;  
+    color: #9C9C9C;
+    padding: 30px 0 0 30px;
 }
 .applyButton{
     width: 119px;
     height: 54px;
     background-color: #F58A07;
     border-radius: 31px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 15px 0 0 30px;
 }
 .applyButton a{
     color: white;
