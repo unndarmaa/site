@@ -40,6 +40,6 @@
 }
 .latestArrow::after{
     content: "\2192";
-    font-size: x-large;
+    font-size: large;
     margin: 20px 0 0 10px;
 }

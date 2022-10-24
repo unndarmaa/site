@@ -99,8 +99,8 @@ li{
 }
 .helpSection .arrow::after{
     content: "\2192";
-    font-size: x-large;
-    margin: 20px 0 0 10px;
+    font-size: large;
+    margin: 30px 0 0 10px;
 }
 /* ---------------------------------Style of features section  start here----------------------------------------*/
 .featuresSection{
@@ -145,7 +145,7 @@ li{
     align-items: center;
 }
 .aboutSection .left{
-    width: 50%;
+    width: 48%;
     height: 667px;
 }
 .aboutTittle{
@@ -161,6 +161,7 @@ li{
 .aboutFeature p:first-child{
     font-size: 2.25rem;
     color: #F58A07;
+    font-weight: 600;
 }
 .aboutFeature h3{
     font-size: 1.5rem;
@@ -245,7 +246,7 @@ li{
 }
 .serviceSection .left a::after{
     content: "\2192";
-    font-size: x-large;
+    font-size: large;
     margin: 20px 0 0 10px;
 }
 .serviceSection .left{

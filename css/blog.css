@@ -37,11 +37,14 @@
 }
 .blogSection .left a::after{
     content:"\2192";
-    font-size: x-large;
+    font-size: large;
     margin: 20px 0 0 10px;
 }
 .blogSection .right img{
     border-radius: 20px;
+}
+.blogSection .right img:hover{
+    width: 700px;
 }
 /* --------------------------style of latest section start here--------------------------------  */
 .latestSection{
@@ -66,6 +69,9 @@
     border-radius:20px;
     margin-bottom: 50px;
 }
+.latestSection .post article:hover{
+    background-color: rgb(172, 201, 223);
+}
 .latestSection .post  h3{
     font-size: 1.5rem;
     color: #0D1317;
@@ -85,6 +91,6 @@
 }
 .latestArrow::after{
     content: "\2192";
-    font-size: x-large;
+    font-size: large;
     margin: 20px 0 0 10px;
 }

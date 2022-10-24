@@ -15,6 +15,9 @@
     width: 90%; 
     font-size: 18px;
 }
+.firstSection a{
+    color:white
+}
 .firstSection .right{
     background-image: url(/images/careers.png);
     background-repeat: no-repeat;
@@ -72,4 +75,7 @@
 .careers a{
     color: #F58A07;
     font-size: 18px;
+}
+.careers a:hover{
+    color: rgb(151, 194, 243);
 }

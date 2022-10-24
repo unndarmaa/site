@@ -19,10 +19,14 @@ a{
 }
 p{
     color: #5B5B5B;
+    font-weight: 400;
 }
 h2{
     color: #1D3444;
+    font-weight: 600;
+    line-height: 72px;
 }
 h3{
     color: #0D1317;
+    font-weight: 500;
 }

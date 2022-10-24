@@ -60,3 +60,6 @@
 .videoCircle a{
     color: white;
 }
+.videoCircle a:hover{
+    color: #F58A07;
+}
